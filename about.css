@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*hero*/
+
+.hero {
+  background-image: url("img/holding_heart.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: grayscale(30%);
+  background-size: cover;
+  margin: 0px;
+  padding: 190px;
+}
+
+.abt {
+  text-align: center;
+  font-size: 50px;
+  color: rgb(0, 0, 0);
+  background-color: white;
+  opacity: 0.6;
+}
