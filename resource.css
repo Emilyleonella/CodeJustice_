@@ -5,6 +5,7 @@ body{
     font-family:'Times New Roman', Times, serif;
     margin: 0;
 }
+
 #backimage{
     min-height: 100%;
     min-width: 1024px;
@@ -14,8 +15,6 @@ body{
     top: 0;
     left: 0;
   }
-
-
 .head{
     padding: 50px;
     text-align: center!important;
@@ -79,14 +78,22 @@ body{
     opacity: 1;
   }
   
-  .test {
+  .text {
     color: black;
-    font-size: 20px;
+    font-size:20px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     font-family:"Jazz LET";
+    text-align: justify;
+  }
+  .desc h3{
     text-align: center;
+  }
+  p{
+   line-height: 1.2;
+   font-size: 18px;
+   padding: 20px;
   }
