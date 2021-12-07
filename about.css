@@ -42,7 +42,7 @@ nav img {
   width: 100%;
 }
 
-/*hero*/
+/*hero
 
 .hero {
   background-image: url("img/love_shouldnt_hurt.jpg");
@@ -51,7 +51,8 @@ nav img {
   filter: grayscale(30%);
   background-size: cover;
   margin: 0px;
-  padding: 190px;
+  padding: 250px;
+  height: 30px; */
 }
 
 .abt {
