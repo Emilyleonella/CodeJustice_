@@ -118,7 +118,7 @@ background-position: 50% 50%;
 background-repeat: none;
 opacity: 0;
 z-index: 0;
-animation: imageAnimation 15s linear infinite 3s; 
+animation: 27s imageAnimation infinite linear ; 
 color: transparent;
 }
 
@@ -133,7 +133,7 @@ background-position: 50% 50%;
 background-repeat: none;
 opacity: 0;
 z-index: -1;
-animation: imageAnimation2 15s linear infinite 3s; 
+animation: 27s imageAnimation2 infinite linear; 
 color: transparent;
 }
 
@@ -153,19 +153,43 @@ color: transparent;
 .slide figure:nth-child(2) { 
     background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(0, 0, 0, 1)),
     url(img/image\ 2.jpeg);
-    animation-delay: 7s;
+    animation-delay: 10s;
 }
 
 .slide2 figure:nth-child(2) { 
     background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(0, 0, 0, 1)),
     url(img/image\ 4.png);
-    animation-delay: 10s;
+    animation-delay: 6s;
 }
 
 .slide figure:nth-child(3) {
     background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(0, 0, 0, 1)),
     url(img/image\ 5.jpg);
     animation-delay: 13s;}
+
+    .slide2 figure:nth-child(3){
+        background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(0, 0, 0, 1)),
+    url(img/image\ 6.jpg);
+    animation-delay: 16s;
+    }
+
+    .slide figure:nth-child(4){
+        background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(0, 0, 0, 1)),
+    url(img/image\ 7.jpeg);
+    animation-delay: 20s;
+    }
+
+    .slide2 figure:nth-child(4){
+        background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(0, 0, 0, 1)),
+    url(img/image\ 8.jpg);
+    animation-delay: 23s;
+    }
+
+    /*.slide figure:nth-child(5){
+        background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(0, 0, 0, 1)),
+    url(img/image\ 9.jpg);
+    animation-delay: 25s;
+    }*/
 
 
 @keyframes imageAnimation { 
