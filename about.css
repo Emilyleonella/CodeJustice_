@@ -29,6 +29,7 @@ nav img {
   text-decoration: none;
   font-size: 20px;
 }
+
 .nav-links ul li::after {
   content: "";
   width: 0%;
@@ -81,4 +82,14 @@ nav img {
   padding: 10px;
   padding-top: 40px;
   text-align: center;
+}
+
+.first {
+  display: flex;
+}
+.hand {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
