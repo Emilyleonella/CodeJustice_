@@ -21,13 +21,22 @@ max-width: 100vw;
 max-height: auto;
 }
 
+.name
+{
+font-family:'Open sans' ;
+font-size: 2vw;
+font-weight:330;
+padding: 1vw;
+padding-left: 2vw;
+}
+
 nav
 {
 margin-left: auto;
 font-family:'Open sans' ;
 font-size: 1.3vw;
 font-weight:330;
-padding: 1vw;
+padding: 1.5vw;
 padding-right: 2vw;
 
 }
