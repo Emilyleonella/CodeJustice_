@@ -47,8 +47,8 @@ background-color: rgba(245, 245, 245, 0.6);
 h5
 {
 position: absolute;
-top: 25%;
-left: 12.5%;
+top: 25vh;
+left: 12.5vwgit ;
 font-family:'Open sans' ;
 font-size: 1.5vw;
 font-weight:330;
