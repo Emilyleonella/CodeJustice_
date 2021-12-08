@@ -26,9 +26,9 @@ nav{
   z-index: 1;
   
 }
-nav img{
+/*nav img{
   width: 150px;
-}
+}*/
 .nav-links{
   flex: 1;
   text-align: right;
