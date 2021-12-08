@@ -3,7 +3,7 @@
     padding:0px;
   }
  
-}
+
 nav{
   display: flex;
   padding: 2% 6%;
@@ -16,7 +16,7 @@ nav img{
 }
 .nav-links{
   flex: 1;
-  text-align: center;
+  text-align: right;
 }
 .nav-links ul li{
   list-style: none;
@@ -44,43 +44,39 @@ width: 100%;
 
 }
   body {
-   background-image: url("img/kindbackground.jpg");
+   background-image: url("img/volunteer0.jpg");
    background-position: center;
    background-size: cover;
    background-color: #000000;
-   
+   /* background: linear-gradient(to bottom, rgb(255, 255, 255, 0), rgba(0, 0, 0, 1)); */
   }
-  a:hover{ 
-    background-color:  #5A9789;
-    border-radius: 1px;
-    cursor: pointer;
-  }
-  p{
-    color: white;
-    padding: 3px;
-    margin: 3px;
-    text-align: left;
-    position:relative;
-    font-family:"Marker Felt";
-  }
-   
+  
+  .getinvolved {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: relative;}
+
+  
   h1{
     color: white;
   }
   
-  div.container {
-    text-align: justify;
-    padding: 10px 20px;
+  .container {
+    margin:5px;
+    width: auto;
+    padding: 0 20px 20px;
     position: relative;
-    width: 43%;
-    margin-left: auto;
-    margin-right: auto;
+    justify-content: center;
   }
-  img {
+
+  /* img {
     display: block;
     width: 100%;
     height: auto;
-  }
+  } */
   
   .overlay {
     position: absolute;
@@ -92,7 +88,7 @@ width: 100%;
     width: 100%;
     opacity: 0;
     transition: .5s ease;
-    background-color: #C8DAAC;
+    background-color: #A89E93;
   }
   
   .container:hover .overlay {
@@ -111,8 +107,8 @@ width: 100%;
     text-align: justify;
   }
   
-  footer
-{
+  
+footer{
 float:right;
 position: fixed;
 bottom: 0%;
@@ -121,6 +117,16 @@ padding: 2vw;
 padding-right: 2.5vw;
 padding-bottom: 6vh;
 }
+
+.footer1{
+  color: white;
+  padding: 3px;
+  margin: 3px;
+  text-align: left;
+  position:relative;
+  font-family:"Marker Felt";
+}
+ 
 
 .social
 {
