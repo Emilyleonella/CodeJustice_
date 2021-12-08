@@ -111,4 +111,44 @@ width: 100%;
     text-align: justify;
   }
   
-  
+  footer
+{
+float:right;
+position: fixed;
+bottom: 0%;
+right: 0%;
+padding: 2vw;
+padding-right: 2.5vw;
+padding-bottom: 6vh;
+}
+
+.social
+{
+color: whitesmoke;
+padding: 1.5vw;
+text-decoration: none;
+font-size: 2vw;
+}
+
+.social:hover
+{
+opacity: 0.5;
+}
+
+i.fa-circle-thin
+{
+-webkit-text-stroke-color: black;
+-webkit-text-stroke-width:2px;
+paint-order: stroke;
+}
+
+p
+{
+position: fixed;
+left:7%;
+bottom: 7%;
+color: whitesmoke;
+font-family:'Open sans' ;
+font-size: 1vw;
+font-weight:330;
+}
