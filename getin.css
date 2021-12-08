@@ -1,0 +1,114 @@
+*{
+    margin:0px;
+    padding:0px;
+  }
+ 
+}
+nav{
+  display: flex;
+  padding: 2% 6%;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+nav img{
+  width: 150px;
+}
+.nav-links{
+  flex: 1;
+  text-align: center;
+}
+.nav-links ul li{
+  list-style: none;
+  display: inline-block;
+  padding: 8px 12px;
+  position: relative 
+}
+.nav-links ul li a{
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  
+}
+.nav-links ul li::after{
+  content: '';
+  width: 0%;
+  height: 2px;
+  background: #f44336;
+  display: block;
+  margin: auto;
+  transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+width: 100%;
+
+}
+  body {
+   background-image: url("img/kindbackground.jpg");
+   background-position: center;
+   background-size: cover;
+   background-color: #000000;
+   
+  }
+  a:hover{ 
+    background-color:  #5A9789;
+    border-radius: 1px;
+    cursor: pointer;
+  }
+  p{
+    color: white;
+    padding: 3px;
+    margin: 3px;
+    text-align: left;
+    position:relative;
+    font-family:"Marker Felt";
+  }
+   
+  h1{
+    color: white;
+  }
+  
+  div.container {
+    text-align: justify;
+    padding: 10px 20px;
+    position: relative;
+    width: 43%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #C8DAAC;
+  }
+  
+  .container:hover .overlay {
+    opacity: 1;
+  }
+  
+  .text {
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    font-family:"Jazz LET";
+    text-align: justify;
+  }
+  
+  

@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family:'Times New Roman', Times, serif;
+    margin: 0;
+}
+#backimage{
+    min-height: 100%;
+    min-width: 1024px;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+.head{
+    padding: 50px;
+    text-align: center!important;
+}
+#maintext{
+    position: relative;
+}
+.cn{
+    text-align: center;
+    position: relative;
+}
+.clear{
+    clear: both;
+}
+.genresources {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.resources{
+    margin:5px;
+    width: auto;
+    padding: 0 20px 20px;
+    position: relative;
+    justify-content: center;
+}
+.recovery{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    justify-content: center;
+}
+.img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+  .desc{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #A89E93;
+  }
+  .resources:hover .desc {
+    opacity: 1;
+  }
+  .test {
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    font-family:"Jazz LET";
+    text-align: center;
+  }
