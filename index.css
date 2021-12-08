@@ -44,11 +44,21 @@ nav a:hover
 background-color: rgba(245, 245, 245, 0.6);
 }
 
+.container
+{
+display:flex;
+align-content: space-around;
+justify-content: center;
+position: absolute;
+top: 25vh;
+left: 12.5vw;
+}
+
 h5
 {
 position: absolute;
-top: 25vh;
-left: 12.5vwgit ;
+/*top: 25vh;
+left: 12.5vw;*/
 font-family:'Open sans' ;
 font-size: 1.5vw;
 font-weight:330;
@@ -59,8 +69,8 @@ color: whitesmoke;
 
 h1
 {
-position: absolute;
-top: 30%;
+/*position: absolute;
+top: 30%;*/
 font-family:'Open sans' ;
 font-size: 4.5vw;
 font-weight:330;
@@ -75,8 +85,8 @@ color: whitesmoke;
 color: black;
 text-decoration: none;
 position: absolute;
-top: 55%;
-left: 13.7%;
+/*top: 55%;
+left: 13.7%;*/
 font-family:'Open sans' ;
 font-size: 1vw;
 font-weight:500;
